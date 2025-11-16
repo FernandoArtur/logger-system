@@ -41,5 +41,5 @@ buttonInput.addEventListener("click", (event) => {
 
   sessionStorage.setItem("password", passwordRecovery);
 
-  window.location.href = "../pages/login.html";
+  window.location.href = "..pages/login.html";
 });
