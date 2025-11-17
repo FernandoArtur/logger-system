@@ -30,7 +30,7 @@ buttonInput.addEventListener('click', (event) => {
     sessionStorage.setItem('username', usernameRegister);
     sessionStorage.setItem('password', passwordRegister);
 
-    window.location.href = './pages/login.html';
+    window.location.href = './login.html';
     
 });
 
