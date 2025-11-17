@@ -31,6 +31,6 @@ buttonInput.addEventListener("click", (event) => {
     return;
   }
 
-  window.location.href = "..pages/signedin.html";
+  window.location.href = "signedin.html";
   
 });
