@@ -39,6 +39,11 @@ buttonInput.addEventListener("click", (event) => {
     return;
   }
 
+  if (passwordRecovery !== passwordRecoveryConfirm) {
+    alert("The passwords inserted don't match");
+    return;
+  }
+
   sessionStorage.setItem("password", passwordRecovery);
 
   window.location.href = "login.html";
